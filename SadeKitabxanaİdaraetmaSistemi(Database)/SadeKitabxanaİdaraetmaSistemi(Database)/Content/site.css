@@ -1,0 +1,41 @@
+body {
+  background: #f4f6f8;
+  color: #222;
+  font-family: Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.navbar-brand { font-weight:700; }
+.card-modern { border: 0; border-radius: 12px; box-shadow: 0 6px 20px rgba(14,30,37,0.08); }
+.btn-primary-custom { background: linear-gradient(90deg,#2563eb,#7c3aed); border: none; }
+.table-modern thead th { border-bottom: 2px solid rgba(0,0,0,0.06); }
+.table-modern tbody td { vertical-align: middle; }
+.form-card { max-width: 520px; margin: 0 auto; }
+.header-welcome { font-size: 16px; }
+.add-link { color: #6f42c1; text-decoration: none; }
+.add-link:hover { text-decoration: underline; }
+.form-row { display:flex; align-items:center; gap:16px; margin-top:14px; }
+.form-row label { width:120px; font-size:16px; }
+.form-row .form-control { flex:1; padding:8px 10px; border-radius:6px; border:1px solid #e2e8f0; }
+.form-row .form-control:focus { outline:none; box-shadow:0 0 0 3px rgba(99,102,241,0.08); border-color:#7c3aed; }
+
+.table-modern { width:100%; border-collapse:separate; border-spacing:0 8px; }
+.table-modern thead th { text-align:left; padding:14px 18px; font-weight:700; color:#111827; }
+.table-modern tbody tr { background:#fff; border-radius:8px; box-shadow:0 3px 8px rgba(14,30,37,0.04); }
+.table-modern tbody td { padding:14px 18px; vertical-align:middle; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.table-modern tbody tr td:first-child { border-top-left-radius:8px; border-bottom-left-radius:8px; }
+.table-modern tbody tr td:last-child { border-top-right-radius:8px; border-bottom-right-radius:8px; }
+.table-actions { white-space:nowrap; }
+.table-actions a { margin-left:8px; color:#2563eb; text-decoration:none; }
+.table-actions a:hover { text-decoration:underline; }
+
+.gv-header th { padding:14px 18px; }
+.gv-row td { padding:12px 18px; }
+.gv-row td:nth-child(2) { width:40%; }
+.gv-row td:nth-child(3) { width:30%; }
+.gv-row td:nth-child(4) { width:10%; text-align:center; }
+.gv-row td:nth-child(5) { width:10%; text-align:center; }
+.gv-row td:nth-child(6) { width:10%; text-align:right; }
+@media (max-width:576px) {
+  .header-welcome { font-size:14px; }
+  .form-row { display:block; }
+  .form-row label { width:auto; margin-bottom:6px; }
+}
